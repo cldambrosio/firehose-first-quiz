@@ -1,0 +1,5 @@
+<%= simple_form_for @idea do |f| %>
+  <%= f.input :title, label: "Idea", placeholder: "Name your idea" %>
+  <%= f.input :highlight, placeholder: "Tell us all about it" %>
+  <%= f.submit 'Create' %>
+<% end %>

@@ -1,1 +1,8 @@
 <h1>Welcome to my First Quiz Web App!</h1>
+<br />
+<% @ideas.each do |idea| %>
+  <h4>Idea: </h4>
+  <%= idea.title %><br />
+  <%= idea.highlight %>
+  <br /><br />
+<% end %>
